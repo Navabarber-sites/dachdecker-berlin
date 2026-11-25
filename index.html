@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DachMeister Berlin | Dachdecker in Berlin</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#f4f4f4;color:#111}
+header{background:#0f172a;color:white;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0}
+header b{font-size:20px} header b span{color:#facc15}
+.btn{background:#facc15;color:#111;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:bold}
+.hero{background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200');background-size:cover;background-position:center;color:white;padding:70px 20px;text-align:center}
+.hero h1{font-size:38px;line-height:1.1}
+.hero p{margin:18px 0;font-size:18px;opacity:.9}
+.hero .btn{display:inline-block;margin-top:10px}
+.badges{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.badges span{background:white;color:#111;padding:8px 12px;border-radius:20px;font-size:13px;font-weight:bold}
+section{max-width:1000px;margin:auto;padding:40px 20px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.card{background:white;padding:22px;border-radius:16px;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+.card h3{margin-bottom:8px}
+.price{background:#0f172a;color:white;padding:30px;border-radius:16px;text-align:center}
+.price h2{font-size:32px;margin:10px 0}
+form{background:white;padding:24px;border-radius:16px;display:grid;gap:12px}
+input,select,textarea{padding:13px;border:1px solid #ddd;border-radius:10px;width:100%;font-size:15px}
+footer{background:#0f172a;color:white;text-align:center;padding:20px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:30px}}
+</style>
+</head>
+<body>
+<header><b>DACH<span>MEISTER</span> BERLIN</b><a class="btn" href="tel:+493012345678">📞 Jetzt anrufen</a></header>
+
+<div class="hero">
+<h1>Ihr Dach in guten Händen.<br>Your Roof in Good Hands.</h1>
+<p>Dachdecker in Berlin • Kostenloses Angebot in 24h • Free Quote in 24h</p>
+<a class="btn" href="#kontakt">Kostenloses Angebot → Free Quote</a>
+<div class="badges"><span>⭐ 4.9 - 127 Bewertungen</span><span>✅ 15 Jahre Erfahrung</span><span>🛡️ 10 Jahre Garantie</span></div>
+</div>
+
+<section>
+<h2 style="text-align:center;margin-bottom:20px">Unsere Leistungen / Our Services</h2>
+<div class="grid">
+<div class="card"><h3>🏠 Dachreparatur</h3><p>Undichte Stellen, Sturmschäden und Notdienst. Schnell und sauber.</p><p><b>Ab €290</b></p></div>
+<div class="card"><h3>🆕 Neues Dach</h3><p>Komplettes neues Dach inkl. Dämmung und Dachfenster.</p><p><b>Ab €4.900</b></p></div>
+<div class="card"><h3>🧹 Dachreinigung</h3><p>Moos, Algen und Schmutz entfernen. Dach sieht wieder neu aus.</p><p><b>Ab €190</b></p></div>
+</div>
+</section>
+
+<section>
+<div class="price">
+<p>KOSTENLOSES ANGEBOT / FREE QUOTE</p>
+<h2>Termin buchen - Book Now</h2>
+<p>Füllen Sie das Formular aus. Wir rufen Sie in 2 Stunden zurück.</p>
+</div>
+</section>
+
+<section id="kontakt">
+<form onsubmit="alert('Danke! Wir rufen Sie in 2 Stunden an. / Thank you! We will call you in 2 hours.');return false;">
+<input placeholder="Name / Nombre" required>
+<input placeholder="Telefon / Phone" required>
+<select><option>Dachreparatur / Repair</option><option>Neues Dach / New Roof</option><option>Dachreinigung / Cleaning</option></select>
+<textarea placeholder="Was ist das Problem? / What is the problem?"></textarea>
+<button class="btn" style="border:none;cursor:pointer;font-size:16px">Kostenloses Angebot anfordern →</button>
+<p style="text-align:center;font-size:13px;color:#666">Kein Spam. Nur 1 Anruf. / No spam. Just 1 call.</p>
+</form>
+</section>
+
+<footer>DachMeister Berlin • Hauptstraße 12, 10115 Berlin • Tel: +49 30 12345678 • Impressum / Datenschutz</footer>
+</body>
+                                                                                           </html>
